@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Elevate Your Ideas - Modern Landing Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="logo" aria-label="Homepage">
+        <!-- attractive SVG logo -->
+        <svg width="40" height="40" viewBox="0 0 100 100" aria-hidden="true">
+          <defs>
+            <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" style="stop-color:#ff6b6b;stop-opacity:1" />
+              <stop offset="50%" style="stop-color:#4ecdc4;stop-opacity:1" />
+              <stop offset="100%" style="stop-color:#45b7d1;stop-opacity:1" />
+            </linearGradient>
+          </defs>
+          <circle cx="50" cy="50" r="48" fill="url(#logoGrad)" stroke="#fff" stroke-width="2"/>
+          <path d="M25 35 L50 20 L75 35 L75 65 L50 80 L25 65 Z" fill="#fff" opacity="0.9"/>
+          <circle cx="50" cy="50" r="8" fill="url(#logoGrad)"/>
+        </svg>
+        <span class="brand-name">ElevateLabs</span>
+      </a>
+
+      <!-- CSS-only mobile nav toggle -->
+      <input id="nav-toggle" type="checkbox" class="nav-toggle" aria-hidden="true" />
+      <label for="nav-toggle" class="nav-toggle-label" aria-hidden="true">
+        <span></span>
+      </label>
+
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a class="btn" href="#get-started">Get Started</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-left">
+          <h1>Elevate Your Ideas — Smarter, Faster.</h1>
+          <p>Modern, responsive landing pages that captivate on any device. Pure HTML & CSS magic with stunning animations and seamless interactions.</p>
+          <p class="hero-cta">
+            <a class="btn btn-primary" href="#get-started">Get Started</a>
+            <a class="btn btn-ghost" href="#about">Learn More</a>
+          </p>
+          <ul class="features-list" id="features">
+            <li>Responsive layout (Flexbox + Grid)</li>
+            <li>CSS-only mobile navigation</li>
+            <li>Smooth micro-animations</li>
+          </ul>
+        </div>
+
+        <div class="hero-right" aria-hidden="true">
+          <div class="mockup">
+            <div class="screen">
+              <h3>Product Snapshot</h3>
+              <p>Clean, modern UI components ready for your content.</p>
+              <div class="stats">
+                <div><strong>1.2k</strong><span>Users</span></div>
+                <div><strong>99.9%</strong><span>Uptime</span></div>
+                <div><strong>24/7</strong><span>Support</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="info container" id="about">
+      <h2>About ElevateLabs</h2>
+      <p>Crafted for innovators and creators — this template blends elegance with functionality, ready to inspire and adapt to your vision.</p>
+      <div class="grid-3">
+        <article>
+          <h3>Fast</h3>
+          <p>Lightweight CSS, mobile-first approach and fast load times.</p>
+        </article>
+        <article>
+          <h3>Accessible</h3>
+          <p>Semantic HTML and keyboard-friendly navigation pattern.</p>
+        </article>
+        <article>
+          <h3>Customizable</h3>
+          <p>Simple variables and utility classes to get started fast.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="cta" id="get-started">
+      <div class="container">
+        <h2>Ready to launch your page?</h2>
+        <p>Use this template as a starting point — tweak colors, fonts, and content to match your project.</p>
+        <a class="btn btn-cta" href="#home">Download Template</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="foot-left">
+        <p>&copy; ElevateLabs <span id="year"></span></p>
+      </div>
+      <div class="foot-right">
+        <nav>
+          <ul class="social">
+            <li><a href="#" aria-label="Twitter">Twitter</a></li>
+            <li><a href="#" aria-label="GitHub">GitHub</a></li>
+            <li><a href="#" aria-label="LinkedIn">LinkedIn</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <!-- small inline script only to update year: optional; remove if you want zero JS at all -->
+  <script>
+    try {
+      document.getElementById('year').textContent = new Date().getFullYear();
+    } catch(e){}
+  </script>
+</body>
+</html>
