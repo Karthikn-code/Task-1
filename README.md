@@ -14,4 +14,3 @@ A clean, modern, and fully responsive landing page built with HTML and CSS. This
 
 - HTML5
 - CSS3 (Flexbox, Grid, Custom Properties, Animations)
-- 
