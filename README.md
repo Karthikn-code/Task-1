@@ -14,3 +14,6 @@ A clean, modern, and fully responsive landing page built with HTML and CSS. This
 
 - HTML5
 - CSS3 (Flexbox, Grid, Custom Properties, Animations)
+Here is the screnshot of this:
+<br>
+<img width="1891" height="1913" alt="image" src="https://github.com/user-attachments/assets/b9fffde8-a7d3-4d4f-86b3-3fb2312150aa" />
